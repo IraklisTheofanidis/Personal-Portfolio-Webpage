@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MyPage</title>
+       <link href="css/styleindex.css" rel="stylesheet">
+       <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+      
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+       <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>   
+
+<body>
+    <section class="header">
+        <nav>
+            <h2>Iraklis Theofanidis</h2>
+
+            <div class="links">
+                <!-- <i id="close" class="fas fa-window-close" onclick="hideMenu()"></i> -->
+                <i id="close" class="far fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#communication">Contact</a></li>
+                </ul>
+                
+            </div>
+            
+            <i id="menu" class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+    </section>
+
+    <div id="home">
+        <div id="homeContent">
+        <h1>Hey I am Hercules</h1>
+        <p>A Web Developer
+           
+        </div>
+    </div>
+
+    <div id="about">
+        <h1 >Some Javascript Projects <hr></h1>
+        <div id="grid">
+            <div class="projects">
+                <a href="https://it164664.github.io/Rock-Paper-Scizzors/">
+                <img src="images/RPS.png"></a>
+            </div>
+            <div class="projects">
+                <a href="https://it164664.github.io/Tic-Tac-Toe/">
+                <img src="images/TTT.png"></a>
+            </div>
+            <div class="projects">
+                <a href="https://it164664.github.io/ETCH-A-SKETCH/">
+                <img src="images/Etch.png"> </a>
+            </div>
+            <div class="projects">
+                <a href=" https://it164664.github.io/Library/">
+                <img src="images/library.png"></a>
+            </div>
+        </div>
+        <button id="showAll" onclick="showAll()">Show All</button>
+    </div>
+
+    <div id="communication">
+        <div id="happyContent"> <h1>Let's work together...</h1>
+           <p>How do you take your coffee?</p>
+        </div>
+        <hr>
+        <div id="icons">
+            <a href="https://www.facebook.com/iraklis.theofanidis/" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/%CE%B7%CF%81%CE%B1%CE%BA%CE%BB%CE%B7%CF%82-%CE%B8%CE%B5%CE%BF%CF%86%CE%B1%CE%BD%CE%B9%CE%B4%CE%B7%CF%82-514170134/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/it164664" class="fa fa-github"></a>
+           
+        </div>
+       
+    </div>
+    <script src="https://kit.fontawesome.com/4874265b5a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
